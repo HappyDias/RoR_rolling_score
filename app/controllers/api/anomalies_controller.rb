@@ -1,6 +1,6 @@
 require "TimeSeries.rb"
 
-class Api::RollscoreController < ApplicationController
+class Api::AnomaliesController < ApplicationController
 	skip_before_action :verify_authenticity_token
 	def index
 		render json: {
