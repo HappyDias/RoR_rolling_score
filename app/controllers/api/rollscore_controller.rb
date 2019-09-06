@@ -15,8 +15,7 @@ class Api::RollscoreController < ApplicationController
 		if params.has_key?(:data) and params.has_key?(:threshold) and params.has_key?(:window)
 			if params[:data].kind_of?(Array) and params[:threshold].kind_of?(Integer) and params[:window].kind_of?(Integer)
 				series = TimeSeries.new(params[:data])
-				series.roll_z_score(5)
-				render json: params.to_json
+				render json: series.anomalies(params[:threshold], params[:window])
 			#Here a custom type error should be raised
 			end
 		#Here custom argument missing error should be raised
