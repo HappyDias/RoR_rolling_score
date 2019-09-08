@@ -1,0 +1,11 @@
+.container {
+	display: grid;
+	grid-template: auto / repeat(auto-fit, minmax(250px, 500px));
+	grid-gap: 10px;
+}
+
+.inputsCard {
+	padding: 10px;
+	display: grid;
+	grid-template: 1fr repeat(auto-fit, 1fr) / 1fr;
+}
