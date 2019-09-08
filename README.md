@@ -60,4 +60,4 @@ Data files provided by users should be in the form of single or double column CS
 
 ##Bugs and Improvements
 
-If you wish to report bugs or suggest improvements, please do so using github's interfaces, if you want to start a conversation, feel free to send an email to amcbd89@gmail.com 
+If you wish to report bugs or suggest improvements, please do so using github's interfaces. If you want to start a conversation, feel free to send an email to amcbd89@gmail.com 
